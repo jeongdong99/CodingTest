@@ -8,8 +8,6 @@ public class Lines {
 class Solution {
     public int solution(int[][] lines) {
         int answer = 0;
-
-
         int[] duplicate = new int[201];
 
         for(int i = 0; i < 201; i++){
