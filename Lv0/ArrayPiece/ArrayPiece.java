@@ -1,7 +1,7 @@
 public class ArrayPiece{
     public static void main(String[] args) {
         Solution s = new Solution();
-        int[] arr = {01,2,3,4,5};
+        int[] arr = {0,1,2,3,4,5};
         int[] query = {4,1,2};
         for(int i = 0; i < s.solution(arr,query).length;i++){
             System.out.println(s.solution(arr,query)[i]);
